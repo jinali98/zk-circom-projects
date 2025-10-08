@@ -32,10 +32,6 @@ proof.json
 powersOfTau*.ptau
 pot*.ptau
 
-# Solidity verifier contracts (if generated)
-*Verifier.sol
-verifier.sol
-
 # Build outputs
 outputs/
 build/
