@@ -105,6 +105,14 @@ snarkjs groth16 verify outputs/vkey.json outputs/pub.json outputs/proof.json
 
 ---
 
+## Generate the verifier smart contract
+
+```bash
+snarkjs zkey export solidityverifier outputs/hash_secret.zkey contracts/Verifier.sol
+```
+
+---
+
 ## Expected artifacts
 
 - `outputs/hash_secret.r1cs` – constraint system
