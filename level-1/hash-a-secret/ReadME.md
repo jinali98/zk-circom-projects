@@ -1,4 +1,4 @@
-# Hash-a-Secret (Poseidon Preimage) — Circom + snarkjs
+# Hash a Secret (Poseidon Preimage)
 
 Prove you **know a secret `x`** such that **`Poseidon(x) = H`** without revealing `x`.
 `H` is a **public input** to the circuit and the circuit enforces `Poseidon(x) == H`.
